@@ -8,7 +8,7 @@ editorsNote = target_path + "/editors-note.md.pdf"  # 编者序
 translatorsPreface = target_path + "/translators-preface.md.pdf" # 译者序
 
 count = 1
-fileList = [translatorsPreface, editorsNote]
+fileList = [os.path.dirname(__file__)+"/cover.pdf", translatorsPreface, editorsNote]
 while count < 29:
     if count < 10:
         fileList.append(target_path+"/chapter0"+str(count)+".md.pdf")

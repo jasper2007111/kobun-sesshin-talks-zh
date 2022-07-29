@@ -19,6 +19,7 @@ while count < 29:
         fileList.append(target_path+"/chapter"+str(count)+".md")
     count = count + 1
 
+cover = os.path.dirname(__file__)+"/cover.html"
 text = ""
 for file in fileList:
     # print(file)
@@ -37,9 +38,10 @@ for file in fileList:
             'margin-left': '0.1in'
         }
         pdfkit.from_string(html, file+".pdf", options=options_pdf)  # HTML转PDF
+        # pdfkit.from_string(html, file+".pdf", options=options_pdf, cover=cover, cover_first=True)  # HTML转PDF
 
 
-# cover = os.path.dirname(__file__)+"/cover.html"
+
 
 # pdfkit.from_string(html, output_filename, options=options_pdf, cover=cover, cover_first=True)  # HTML转PDF
 
