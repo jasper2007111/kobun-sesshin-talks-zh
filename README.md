@@ -6,3 +6,6 @@
 
 `Kobun_zh.pdf_`是已经生成的版本，这个是A6大小的PDF，主要适合手机阅读。另外你如果会编程的话，可以用我已经上传的python脚本生成适合你自己的版本。
 
+## 静态网页
+静态网页使用[mdBook](https://rust-lang.github.io/mdBook/)，网站地图使用[static-sitemap-cli](https://github.com/zerodevx/static-sitemap-cli)。
+
