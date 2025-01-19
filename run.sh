@@ -1,4 +1,4 @@
-rm -rf ./public
-mkdir public
-mdbook build -d ./public
-mdbook serve -d ./public
+rm -rf ./root
+mkdir root
+mdbook build -d ./root
+mdbook serve -d ./root
