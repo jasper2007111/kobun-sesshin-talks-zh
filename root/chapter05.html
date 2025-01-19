@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>第五章 无限信任 - 乙川弘文禅修语录</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="translators-preface.html">译者序</a></li><li class="chapter-item expanded affix "><a href="editors-note.html">编者序</a></li><li class="chapter-item expanded "><a href="chapter01.html"><strong aria-hidden="true">1.</strong> 第一章 有东西把你带到这里</a></li><li class="chapter-item expanded "><a href="chapter02.html"><strong aria-hidden="true">2.</strong> 第二章 佛陀为何离家出走</a></li><li class="chapter-item expanded "><a href="chapter03.html"><strong aria-hidden="true">3.</strong> 第三章 魔罗</a></li><li class="chapter-item expanded "><a href="chapter04.html"><strong aria-hidden="true">4.</strong> 第四章 寻找自我</a></li><li class="chapter-item expanded "><a href="chapter05.html" class="active"><strong aria-hidden="true">5.</strong> 第五章 无限信任</a></li><li class="chapter-item expanded "><a href="chapter06.html"><strong aria-hidden="true">6.</strong> 第六章 释迦牟尼佛</a></li><li class="chapter-item expanded "><a href="chapter07.html"><strong aria-hidden="true">7.</strong> 第七章 接心</a></li><li class="chapter-item expanded "><a href="chapter08.html"><strong aria-hidden="true">8.</strong> 第八章 坐禅练习</a></li><li class="chapter-item expanded "><a href="chapter09.html"><strong aria-hidden="true">9.</strong> 第九章 问题、疼痛</a></li><li class="chapter-item expanded "><a href="chapter10.html"><strong aria-hidden="true">10.</strong> 第十章 道元的教导</a></li><li class="chapter-item expanded "><a href="chapter11.html"><strong aria-hidden="true">11.</strong> 第十一章 身、心、呼吸坐</a></li><li class="chapter-item expanded "><a href="chapter12.html"><strong aria-hidden="true">12.</strong> 第十二章 不同的做法</a></li><li class="chapter-item expanded "><a href="chapter13.html"><strong aria-hidden="true">13.</strong> 第十三章 忘却自我</a></li><li class="chapter-item expanded "><a href="chapter14.html"><strong aria-hidden="true">14.</strong> 第十四章 对见性、信仰、生死的感想</a></li><li class="chapter-item expanded "><a href="chapter15.html"><strong aria-hidden="true">15.</strong> 第十五章 光</a></li><li class="chapter-item expanded "><a href="chapter16.html"><strong aria-hidden="true">16.</strong> 第十六章 倾听真相</a></li><li class="chapter-item expanded "><a href="chapter17.html"><strong aria-hidden="true">17.</strong> 第十七章 面授，面对面传输</a></li><li class="chapter-item expanded "><a href="chapter18.html"><strong aria-hidden="true">18.</strong> 第十八章 多种传输方式</a></li><li class="chapter-item expanded "><a href="chapter19.html"><strong aria-hidden="true">19.</strong> 第十九章 面授是内部的</a></li><li class="chapter-item expanded "><a href="chapter20.html"><strong aria-hidden="true">20.</strong> 第二十章 面对世界</a></li><li class="chapter-item expanded "><a href="chapter21.html"><strong aria-hidden="true">21.</strong> 第二十一章 菩萨戒</a></li><li class="chapter-item expanded "><a href="chapter22.html"><strong aria-hidden="true">22.</strong> 第二十二章 佛陀的觉悟与人类</a></li><li class="chapter-item expanded "><a href="chapter23.html"><strong aria-hidden="true">23.</strong> 第二十三章 忏悔（Sange）</a></li><li class="chapter-item expanded "><a href="chapter24.html"><strong aria-hidden="true">24.</strong> 第二十四章 三宝</a></li><li class="chapter-item expanded "><a href="chapter25.html"><strong aria-hidden="true">25.</strong> 第二十五章 三条净戒和禁戒</a></li><li class="chapter-item expanded "><a href="chapter26.html"><strong aria-hidden="true">26.</strong> 第二十六章 不杀生，不偷盗，不依附于满足感</a></li><li class="chapter-item expanded "><a href="chapter27.html"><strong aria-hidden="true">27.</strong> 第二十七章 不说虚幻的话，不卖妄想的酒，不纠缠于过去的错误，不赞美或指责，不囤积材料或教义。</a></li><li class="chapter-item expanded "><a href="chapter28.html"><strong aria-hidden="true">28.</strong> 第二十八章 不发怒，不滥用三宝</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">乙川弘文禅修语录</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="第五章-无限信任"><a class="header" href="#第五章-无限信任">第五章 无限信任</a></h1>
+<p>在上几个晚上，我们讨论了一个非常核心的修行问题，面对自己，问自己为什么来到这个世界，我们的存在是为了什么目的，塑造了一个人的身心。相信自己，也给予别人充分的信任，真的非常难。在你试图在一个地方坐上几个小时，日复一日，一定有你在努力的地方。这不是一件小事! 你不是一只在树枝上休息的鸟。你不是简单地在垫子上休息一会儿。</p>
+<h3 id="信任"><a class="header" href="#信任">信任</a></h3>
+<p>信任包含在坐中。静是另一种表达信任的方式。举个例子，如果你躺在床上，想象着自己在山上等着被闪电击中，但你不信任自己可以这样面对死亡，你会马上从床上跳起来，逃离闪电。但这个闪电是在你的想象中! 其实，我们每天所经历的这种生活，并不是你想象中的事情，也不是你想象中的结果。在静止的日子里，一天又一天，你有新的机会去看清自己。很多很多新的事情发生，新的人和事进入你的生活。它们给你留下了印象，于是你就被延续着，延续到第二天、下一天。</p>
+<p>如果没有付出你的爱心，你的信任心，似乎就没有生命的存在。独自生活在这个宇宙中，即使在完美的知识中，仍然不能满足你。道元禅师对此说的最后一句话是：“......忘记自己”。这不仅仅是对自己的否定，如：“我不好。我就把自己忘了吧！”不是这样的。就像我说的，你去换一个角度看自己，也许你会给自己一个更广阔的空间。忘记自己和信任，在这一点上，我觉得是一样的。忘记自己，就是在有知识的情况下，放弃你人类对事物的认知方式，给你更多的空间去看清自己和其他所有存在的实际情况。当你忘记小我，整个宇宙就会出现。</p>
+<p>当我们谈及信任，谈及相信某件事情，或对某件事情的信仰时，我们往往会带着宗教或精神方式的味道来思考这个问题。然而，当你审视自己的日常活动，帮助他人，照顾孩子或病人，或者在很多很多天里努力做一些事情的时候，你就会开始明白什么叫信仰，或者信任。这里面有很大的力量。“力量”这个词可能不合适，但我说的是将自己的生命力融合在他人周围或体内的能力。举个例子，如果一个人不小心掉进了湍急的河里，大家都惊慌失措，想要下水，但看着黑乎乎的水潮，他们马上就认定了自己就是那个飘走的人。“那是我啊! 如果我进去，我也会像那样!”这种力量，或者说信念，就是当一个人知道如何游动这样的水流时，没有犹豫，没有恐惧，只是跳进去，并试图将自己的力量加入到这股下沉的力量中。对事物的深入了解，以及训练到你的系统中的技能，是你的信念或信心的内容。</p>
+<p>我说的是无边无际、无休止的信任。否则，什么都不会发生。你只是坐在旋转木马上，永恒地等待一些事情的发生。让我们回到道元禅师说的：“与真我相见，就是忘记自己。”只要你的大脑在纠结，你的知识在纠结，你的自我动力在纠结，在你的皮肤里面，你还是一个瞎子。我的意思是说，你的状态还处于完全的黑暗之中，所以，你没有办法对任何事情和任何人进行认同。别人是完全陌生的。动物对你来说是一种像鬼一样，像风一样的生物。你对他们没有感觉。在这样的状态下，即使你觉得自己是一个非常优秀的人，一个相当好的人形，但在这个宇宙中，你仍然是孤独的。就像歌德《浮士德》中浮士德博士的状态。</p>
+<p>信任从哪里开始？信任是确定的知识，不听别人的，是一种直觉的领域。不用说话，你就能理解他人，与他人产生共鸣。即使你不能代替他人，你也能在自己体内反映他人的经验。换句话说，这是对自己和他人的认同，以及你们之间的差异。这不是一种猜测的状态，也不是一种你理解他人的分析性结论。它是对他人的直接理解。</p>
+<p>在这个繁忙、激烈、快速的社会中，我们常常感到无助，在我们努力信任人和情况。我们需要记住，我们的信任不依赖于外部环境。我们一遍又一遍地鼓励自己完全信任他人并感到满足，而不是担心另一端的某种回报。这与无论其他人的情况如何，您都决定继续信任的决心有关。仔细观察，我们就会明白，信任别人是有一种深深的满足感的。也许这就涉及到无知，所谓的“盲目信任”是对他人给予的。它只有一条路可走。</p>
+<h3 id="信仰和信心"><a class="header" href="#信仰和信心">信仰和信心</a></h3>
+<p>在犹太和基督教传统中，信仰不属于人类。它来自于神。这是一种不完整的人接近完整的人的设置，是一种很重的污点接近最纯洁的人。有一种很深的错觉，内疚感。每个人都有这样的感觉，当我们做了一些不该做的事情。在做之前，你觉得，“我做错了事，但我却不得不做”。然后，后来，“看，这是错的！”而内疚感就会戳中你的心。在佛教中，你首先要认定自己是一个。佛法就是要相信自己，彻底的相信自己。这是第一步。如果这一点不存在，什么都无法解决。悟性不是问题所在。觉悟只是一个影子。它只是一个场合。它的出现和消失。你不能拥有它。信仰是你自己生命的动态表现，一刻又一刻。对它产生怀疑，可以说是最罪恶的事情。对自己的生命不了解一切是好的，但对它产生怀疑是第一个错误。即使在完全迷茫的情况下，也会对自己产生信心。</p>
+<p>有人说，佛法的大海洋，觉醒中的真理，是由信而入的。“Shin”是日语中的“人”字。汉字一面显示“人”，另一面是“言”字。“人的言语”。平时我们根本不会去质疑什么是“信”，什么是信仰，什么是信任。殊不知，我们都承认我们每个人的存在。难道你不承认吗？这就是“信”的感觉。你相信自己在这里存在，别人在那里存在。当孩子们开始走向一些高杆玩耍的时候，爸爸妈妈都不忍心看下去了! 然而，父母却真的要相信不会出什么问题。你给别人的那种心态叫什么？是相信吗？你说的是什么？“我对你有信心，有信心，信任”。所以佛法是在这个层面上理解的。那里有某种很强大的实体，你和别人可以见面。</p>
+<h3 id="佛陀的最后忠告"><a class="header" href="#佛陀的最后忠告">佛陀的最后忠告</a></h3>
+<p>在他的悟道经历，以及他决定生活在人们中间之后，佛陀又活了三十五年。他教导说，他只是走在阿赖耶识传统中所教导的古梵之道，即梵我合一的道路上。在吠陀教法中，我是相对的，梵天是绝对的，对它们合一的体验是一种神秘的体验。佛说：“我不是第一人。在我之前有许多佛陀、大德。在我之后还会有许多人。”八十岁的时候，他去世了。他最后一次旅行是去一个地区。他经常去的地方，穿过许多许多村庄，向北走去，他会说：“我在这个村子里度过了多么美好的时光！”在拘尸那罗，他从一个弟子那里得到了他的最后一餐。他最后教导的是，这个身体会变质成元素，所以不偷懒，不等待明天，他要求他的追随者们每时每刻都要做到最好。他对聚集在他临终床边的人说：“要认真修行，以实现发生在每个人身上的事情。它每一秒钟都在发生，发生在每个人身上，每个生命身上，只要他们存在。它在每个地方、每个地方都在发生。”</p>
+<p>即使现在，佛陀的形象也不清晰。我听不到他那么清晰的声音。但今天我们非常幸运，有相当完整的佛陀语录翻译，如《经集》、《法华经》。在佛陀圆寂后大约一百年，人们开始把这些资料整理出来。当我读到佛陀释迦牟尼对他的弟子们说的最后一句话，告诉他们要相信自己，告诉每个人要依靠自己作为原始佛法，要相信僧伽、同修，这些话给我的印象太深了。他的意思是说，除非你付诸实践，在其中找到真理，否则即使是知名的名师的话，你也不需要相信。接着他又说：“我就要往生了，是时候问你最后一个问题了。不要犹豫，即使你是一个新人。时间是迅速的。”他对一个全新的人也这样说话。“如果你羞于开口，请你的长辈来介绍你的话。”他鼓励这样的人。所以现在我们来这里坐坐，因为我们确信在这个非常有趣的、神秘的存在，一个奇怪的奇迹。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="chapter04.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="chapter06.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="chapter04.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="chapter06.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
