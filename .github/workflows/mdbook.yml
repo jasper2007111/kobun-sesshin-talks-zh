@@ -49,7 +49,7 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
       - name: Generate sitemap
-        run: $ sscli -b https://c2lang.com/kobun-sesshin-talks-zh -r ./book
+        run: sscli -b https://c2lang.com/kobun-sesshin-talks-zh -r ./book
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
