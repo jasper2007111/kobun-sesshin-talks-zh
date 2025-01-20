@@ -17,4 +17,4 @@
 
 使用`GitHub Actions`进行自动部署
 
-前往阅读:point_right: [网页阅读版](https://c2lang.com/kobun-sesshin-talks-zh/)
+前往阅读 👉 [网页阅读版](https://c2lang.com/kobun-sesshin-talks-zh/)
